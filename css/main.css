@@ -1032,15 +1032,15 @@ section.section-14 {
 
 img.btn-1 {
   top: 40px;
-  right: 244px;
+  right: 300px;
 }
 
 img.btn-2 {
-  left: 253px;
+  left: 350px;
   top: 55px;
 }
 
-img.btn-3 {bottom: 32px;left: -70px;}
+img.btn-3 {bottom: 32px;left: -120px;}
 
 img.btn-4 {
   bottom: 75px;
@@ -2470,7 +2470,7 @@ font-family: 'Ubuntu', sans-serif;
 
 
 .section-go-3{
-  width: 100%;height: 100%;
+  width: 100%;height: 100vh;
   padding: 2%;
   background-image: url(../images/sectio-32.png);
   background-repeat: no-repeat;background-size: 
@@ -2478,7 +2478,7 @@ font-family: 'Ubuntu', sans-serif;
 
   
 .part-32{
-  width: 100%;height: 100%;
+  width: 100%;height: 100vh;
   padding: 2%;
   background-image: url(../images/section-33.png);
   background-repeat: no-repeat;background-size: 
@@ -2487,7 +2487,7 @@ font-family: 'Ubuntu', sans-serif;
 
   
 .part-33{
-  width: 100%;height: 100%;
+  width: 100%;height: 100vh;
   padding: 2%;
   background-image: url(../images/Group\ 251.png);
   background-repeat: no-repeat;background-size: 
@@ -3198,7 +3198,6 @@ background-repeat: no-repeat;
 }
 
 
-
 @media screen and (max-width: 1024px){
   .AGENDA-box {
     padding: 20px 30px 25px 30px;
@@ -3902,6 +3901,25 @@ h2.with {
 section.section-36 {
   height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card-28 h2 {
   font-size: 20px;
@@ -4683,6 +4701,25 @@ section.section-15 {
   width: 12%;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* mubeen------------------------css */
