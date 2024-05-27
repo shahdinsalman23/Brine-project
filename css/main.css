@@ -19,6 +19,28 @@ section.section-1 {
   justify-content: space-between;
 }
 
+/* salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css */
+.salider-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 18px;
+  position: absolute;
+  top: 50%;
+}
+
+.slideshow-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.salider-group a {
+  font-size: 40px;
+  cursor: pointer;
+}
+/* salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css salider-----------------------------------------------css */
 .section-1-tital {
   width: 35%;
   display: flex;
@@ -177,7 +199,7 @@ img.short-logo {
 
 .section-4{
   width: 100%;
-  background-image: url(../images/section-4.png);
+  background-image: url(../images/section-4.png) !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -879,7 +901,7 @@ img.images-with {
 
 .jaduhe-box span h2 {
   color: #1226AA;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
@@ -1188,22 +1210,6 @@ font-family: 'Ubuntu', sans-serif;
   filter: drop-shadow(5px 4px 10px rgba(153, 153, 153, 0.91));
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section.section-22 {
   width: 100%;
   padding: 2%;
@@ -1412,7 +1418,7 @@ font-family: 'Ubuntu', sans-serif;
   background-color: #fff;
   border-radius: 50%;
   display: flex;
-  width: 4%;
+  width: 3%;
   align-items: center;
   justify-content: center;
   filter: drop-shadow(7px 7px 10px rgba(160, 160, 160, 0.75));
@@ -1501,7 +1507,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .or-part {
-  width: 7%;
+  width: 5%;
   border: 1px solid #1226aa;
   border-radius: 50px;
   padding: 5px;
@@ -1809,6 +1815,7 @@ section.section-28 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .list-28-1 {
@@ -2130,6 +2137,7 @@ font-family: 'Ubuntu', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
+  cursor: pointer;
   line-height: normal;
 }
 
@@ -3198,6 +3206,814 @@ background-repeat: no-repeat;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/********** Expectional Service And Warranty Section CSS End ************/
+
+
+
+
+
+
+
+.best-looking-sec {
+  background: url(../images/best-looking-bg.png) no-repeat top center;
+  background-size: cover;
+  padding: 60px 0px 0px 0px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.header-logo img {
+  width: 120px;
+}
+
+.best-looking-system h3 {
+  text-align: start;
+  width: 455px;
+  background: #fff;
+  padding: 12px 30px;
+  border-radius: 40px;
+  color: #0CBF65;
+  margin: 0 auto;
+  box-shadow: 5px 4px 10px 0px #999999E8;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.header-logo {
+  margin: 0px 0px 50px 60px;
+}
+
+.best-looking-sec:before {
+  position: absolute;
+  content: "";
+  background: #1226AA;
+  height: 100%;
+  width: 500px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+.best-looking-system {
+  position: relative;
+  z-index: 9;
+}
+
+
+.best-looking-points {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+  z-index: 999;
+  margin: 60px 100px 0px 0px;
+}
+
+
+
+.best-looking-points ul li {
+  margin: 40px 0px;
+  background: #fff;
+  padding: 15px 30px;
+  width: 320px;
+  border-radius: 50px;
+  list-style: none;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+
+.best-looking-points ul li:nth-child(1) {
+  position: relative;
+}
+
+.best-looking-points ul li:nth-child(1):after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 450px;
+  height: 1px;
+  right: 100%;
+  top: 30px;
+}
+
+.best-looking-points ul li:nth-child(1):before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 1px;
+  height: 60px;
+  right: 770px;
+  top: 30px;
+}
+
+.best-looking-points ul li:nth-child(1) span {
+  width: 25px;
+  height: 25px;
+  background: #0CBF65;
+  position: absolute;
+  border-radius: 50px;
+  right: 760px;
+  top: 80px;
+  border: 2px solid #fff;
+}
+
+
+
+
+
+
+.best-looking-points ul li:nth-child(2) {
+  position: relative;
+}
+
+.best-looking-points ul li:nth-child(2):after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 180px;
+  height: 1px;
+  right: 100%;
+  top: 20px;
+}
+
+.best-looking-points ul li:nth-child(2):before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 1px;
+  height: 40px;
+  right: 500px;
+  top: 20px;
+}
+
+.best-looking-points ul li:nth-child(2) span {
+  width: 25px;
+  height: 25px;
+  background: #0CBF65;
+  position: absolute;
+  border-radius: 50px;
+  right: 488px;
+  top: 55px;
+  border: 2px solid #fff;
+}
+
+
+
+
+
+
+.best-looking-points ul li:nth-child(3) {
+  position: relative;
+}
+
+.best-looking-points ul li:nth-child(3):after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 550px;
+  height: 1px;
+  right: 100%;
+  top: 35px;
+}
+
+.best-looking-points ul li:nth-child(3):before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 1px;
+  height: 110px;
+  right: 870px;
+  bottom: 23px;
+}
+
+.best-looking-points ul li:nth-child(3) span {
+  width: 25px;
+  height: 25px;
+  background: #0CBF65;
+  position: absolute;
+  border-radius: 50px;
+  right: 857px;
+  bottom: 125px;
+  border: 2px solid #fff;
+}
+
+
+
+
+
+.best-looking-points ul li:nth-child(4) {
+  position: relative;
+}
+
+.best-looking-points ul li:nth-child(4):after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 650px;
+  height: 1px;
+  right: 100%;
+  top: 35px;
+}
+
+.best-looking-points ul li:nth-child(4):before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 1px;
+  height: 260px;
+  right: 970px;
+  bottom: 24px;
+}
+
+.best-looking-points ul li:nth-child(4) span {
+  width: 25px;
+  height: 25px;
+  background: #0CBF65;
+  position: absolute;
+  border-radius: 50px;
+  right: 957px;
+  bottom: 265px;
+  border: 2px solid #fff;
+}
+
+
+/************ Best Looking System Page CSS End ****************/
+
+
+
+/************ Proposed Monthly Payment Page CSS Start ****************/
+
+
+.proposed_monthly_payment_sec {
+  position: relative;
+  padding: 30px 0px 0px 0px;
+}
+
+.proposed_monthly_payment_sec::before {
+  position: absolute;
+  content: "";
+  background: url(../images/proposed-paymenr-bg.png) no-repeat;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 490px;
+  background-size: cover;
+}
+
+
+.payment-logo img {
+  position: relative;
+  z-index: 9;
+}
+
+.payment-logo {
+  margin: 0px 0px 0px 30px;
+}
+
+.payment-option h4 {
+  text-align: center;
+}
+
+.payment-option h4 {
+  text-align: center;
+  box-shadow: 5px 4px 10px 0px #999999E8;
+  width: 400px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #1226AA;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+  background: #fff;
+}
+
+
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.payment-end {
+  text-align: end;
+  margin: 0px 40px 0px 0px;
+}
+
+.payment-option span {
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  box-shadow: 7px 7px 10px 0px #A0A0A0BF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  left: 26%;
+}
+
+.proposed_cost_box {
+  position: relative;
+  background: #fff;
+  padding: 20px 0px 10px 0px;
+  margin: 40px 0px 0px 30px;
+  box-shadow: 5px 4px 10px 0px #999999E8;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.proposed_cost_box h4 {
+  font-weight: 700;
+  color: #0CBF65;
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+
+.financed-txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px 10px 20px;
+  margin: 30px 0px 10px 0px;
+  border-bottom: 1px solid #999999;
+}
+
+.financed-txt h5 {
+  color: #1226AA;
+  font-size: 20px;
+}
+
+.federal-tax-txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 110px 8px 20px;
+  margin: 13px 0px 5px 0px;
+  border-bottom: 1px solid #999999;
+}
+
+.federal-tax-txt h5 {
+  color: #0CBF65;
+  font-size: 20px;
+}
+
+.total-credi-txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 104px 15px 20px;
+  background: #0CBF65;
+  margin: 0px 0px 1px 0px;
+}   
+
+.total-credi-txt h5 {
+  color: #fff;
+  margin: 0px;
+}
+
+.net-cost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 110px 15px 20px;
+  background: #1226AA;
+}
+
+.net-cost h5 {
+  margin: 0px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.plan-terms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 100px 15px 20px;
+}
+
+.plan-terms h5 {
+  margin: 0px;
+  color: #1226aa;
+}
+
+
+.apr-txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 120px 15px 20px;
+}
+
+.apr-txt h5 {
+  margin: 0px;
+  color: #1226aa;
+}
+
+
+.monthly-payment-txt {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  justify-content: start;
+  margin: 10px 0px 10px 180px;
+}
+
+.monthly-payment-txt h4 {
+  font-size: 37px;
+  color: #000000;
+  padding: 0px;
+  width: 250px;
+}
+
+.intial-term h3 {
+  color: #1226AA;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.intial-term p {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.prior-term p {
+  font-style: italic;
+  padding: 0px 30px 0px 30px;
+}
+
+.payment-amortize-box {
+  padding: 10px 0px;
+  background: #DFDFDF;
+}   
+
+
+.tax-incentives-txt {
+  padding: 0px 0px 0px 20px;
+  margin: 240px 0px 0px 30px;
+}
+
+.tax-incentives-txt p {
+  font-size: 18px;
+}
+
+.payment-prior h4 {
+  width: 300px;
+}
+
+/************ Proposed Monthly Payment Page CSS End ****************/
+
+
+
+/********** Expectional Service And Warranty Section CSS Start ************/
+
+section.expectional_service {
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(85.2deg, #8acd46 7.5%, #79c655 88.7%);
+  z-index: 1;
+}
+
+.expectional_logo img {
+  margin: 0px 0px 20px 0px;
+}
+
+.expectional_service::before {
+  position: absolute;
+  content: "";
+  background: url(../images/expectional_before.png);
+  height: 100vh;
+  width: 620px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-size: cover;
+}
+
+.expectional_logo {
+  position: relative;
+  z-index: 9;
+  padding: 0px 0px 0px 20px;
+}
+
+
+.expectional_txt {
+  position: relative;
+  z-index: 9;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.expectional_txt h3 {
+  color: #fff;
+  font-size: 80px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 110px 0px 20px;
+}
+
+
+.upfront-cost-box {
+  padding: 20px;
+  background: #fff;
+  margin: 0px 50px;
+  border-radius: 10px;
+  height: 320px;
+  position: relative;
+}
+
+
+.upfront-cost-box h4 {
+  font-size: 35px;
+  color: #85cb4b;
+  margin: 0px 0px 40px 0px;
+  position: relative;
+}
+
+
+.upfront-cost-box p {
+  font-size: 24px;
+  padding: 20px 0px;
+}
+
+.upfront-cost-box h4::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(85.2deg, #8acd46 7.5%, #79c655 88.7%);
+  height: 4px;
+  width: 100%;
+  bottom: -25px;
+  border-radius: 20px;
+}
+
+.upfront-cost-box::before {
+  position: absolute;
+  content: "";
+  background-image: radial-gradient(circle 369px at -2.9% 12.9%, rgb(237 215 94) 0%, rgb(228 247 128 / 56%) 46.4%, rgb(132 203 75) 100.7%);
+  width: 100%;
+  height: 40px;
+  left: 0px;
+  top: -20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: -1;
+}
+
+
+
+.work-contract-box {
+  margin: 50px 60px 0px 50px;
+  padding: 20px;
+  background: #163434;
+}
+
+
+
+.lifetime-logo {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+  position: relative;
+}
+
+.lifetime-logo h5 {
+  font-size: 35px;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+.lifetime-logo::before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  height: 50px;
+  width: 2px;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10px;
+}
+
+.lifetime-logo img {
+  width: 250px;
+}
+
+
+.work-contract-box h6 {
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0px 10px 30px;
+  font-weight: bold;
+}
+
+
+.work-contract-box p {
+  color: #fff;
+  font-size: 20px;
+  padding: 0px 0px 0px 30px;
+}
+
+
+
+
+
+
+
+section.section-sixty {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-dasborad-site {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.dash-site-list-1 {
+  width: 20%;
+  background-image: url(../images/section-11.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  padding: 30px 50px;
+}
+
+.logo-section-25 {
+}
+
+.dash-site-list-2 {
+  width: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/secsex.png);
+  height: 100%;
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-box-card {
+  padding: 66px 40px;
+  border-radius: 60px;
+  border: 1px solid #000;
+  background: #FFF;
+  width: 75%;
+}
+
+.Cost-btn-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-aling {
+  justify-content: flex-end !important;
+}
+.Cost-btn-box button {
+  border-radius: 50px;
+  background: linear-gradient(0deg, #0CBF65 0%, #0CBF65 100%), #1226AA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+  text-transform: capitalize;
+  padding: 20px 50px;
+}
+
+.Cost-list-box {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 30px;
+}
+
+.Cost-list-box span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.91);
+}
+
+.Cost-list-box span h2 {
+  color: #1226AA;
+font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 190% */
+}
+
+.cost-btn-listing {
+  width: 100%;
+}
+
+.cost-btn-listing button {
+  border-radius: 50px;
+  background: linear-gradient(0deg, #0CBF65 0%, #0CBF65 100%), #1226AA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.cost-btn-listing button h2 {
+  color: #1226AA;
+font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px; /* 118.75% */
+}
+
+.site-1-dash-p {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+}
+
+.site-1-dash-p h3 {
+  color: #0CBF65;
+font-family: 'Ubuntu', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 75% */
+  text-transform: capitalize;
+}
+
+/********** Expectional Service And Warranty Section CSS End ************/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+  .best-looking-system h3 {
+      margin: 0px;
+  }
+  .site-1-dash-p h3 {
+    font-size: 35px;
+}
+
+.site-box-card {
+    width: 100%;
+}
+
+.Cost-btn-box button {
+    font-size: 25px;
+    padding: 12px 42px;
+}
+
+.cost-btn-listing button {
+    padding: 14px 24px;
+}
+
+.cost-btn-listing button h2 {
+    font-size: 28px;
+}
+}
+
+
+
 @media screen and (max-width: 1024px){
   .AGENDA-box {
     padding: 20px 30px 25px 30px;
@@ -3643,6 +4459,197 @@ p.para-1 {
 .section-36-list-1 {
   width: 30%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.best-looking-system {
+  right: 50%;
+}
+
+.best-looking-points ul li:nth-child(1):after {
+  width: 290px;
+}
+
+.best-looking-points ul li:nth-child(1):before {
+  height: 50px;
+  right: 610px;
+}
+
+.best-looking-points ul li:nth-child(1) span {
+  right: 598px;
+  top: 80px;
+}
+
+.best-looking-points ul li:nth-child(3):after {
+  width: 380px;
+}
+
+.best-looking-points ul li:nth-child(3):before {
+  right: 700px;
+  bottom: 24px;
+}
+
+.best-looking-points ul li:nth-child(3) span {
+  right: 687px;
+  bottom: 125px;
+}
+
+.best-looking-points ul li:nth-child(4):after {
+  width: 460px;
+}
+
+.best-looking-points ul li:nth-child(4):before {
+  right: 780px;
+}
+
+.best-looking-points ul li:nth-child(4) span {
+  border-radius: 50px;
+  right: 768px;
+}
+
+.proposed_cost_box {
+  width: 100%;
+}
+
+.proposed_cost_box h4 {
+  font-size: 21px;
+}
+
+.proposed_monthly_payment_sec::before {
+  width: 300px;
+}
+.financed-txt {
+  padding: 0px 20px 10px 20px;
+  margin: 20px 0px 10px 0px;
+}
+.financed-txt h5 {
+  color: #1226AA;
+  font-size: 18px;
+}
+
+.federal-tax-txt {
+  padding: 0px 20px 8px 20px;
+  margin: 10px 0px 1px 0px;
+}
+.federal-tax-txt h5 {
+  font-size: 18px;
+}
+.total-credi-txt {
+  padding: 10px 20px 10px 20px;
+}
+.total-credi-txt h5 {
+  font-size: 18px;
+}
+.net-cost h5 {
+  font-size: 18px;
+}
+.net-cost {
+  padding: 10px 20px 10px 20px;
+}
+.plan-terms {
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+}
+.plan-terms h5 {
+  font-size: 18px;
+}
+.apr-txt {
+  padding: 10px 20px 10px 20px;
+}
+.apr-txt h5 {
+  font-size: 18px;
+}
+.monthly-payment-txt {
+  gap: 10px;
+  margin: 20px 0px 20px 60px;
+}
+.monthly-payment-txt h4 {
+  font-size: 30px;
+}
+.intial-term p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.payment-amortize-box {
+  padding: 10px 0px;
+  margin: 0px 0px 0px 30px;
+}
+
+.tax-incentives-txt {
+  margin: 150px 0px 0px 30px;
+}
+
+.payment-option h4 {
+  width: 350px;
+  padding: 12px 30px;
+}
+.payment-option {
+  justify-content: flex-end;
+}
+.payment-option span {
+  width: 80px;
+  height: 80px;
+  left: 22%;
+}
+.payment-option h4 {
+  font-size: 18px;
+}
+
+.monthly-payment-txt h4 {
+  width: 200px;
+}
+
+.payment-prior h4 {
+  width: 400px;
+}
+
+.intial-term p {
+  padding: 0px;
+}
+
+
+
+.dash-site-list-1 {
+  padding: 25px 30px;
+  width: 24%;
+}
+
+.dash-site-list-2 {
+  width: 76%;
+}
+
+.site-box-card {
+  padding: 40px 35px;
+}
+
+.Cost-btn-box button {
+  font-size: 20px;
+  padding: 10px 34px;
+}
+
+.cost-btn-listing button {
+  padding: 12px 20px;
+}
+
+.cost-btn-listing button h2 {
+  font-size: 24px;
+}
+
+
 }
 
 
@@ -4002,8 +5009,180 @@ section.section-go-2 {
 .inn-col-1 {
   width: 12%;
 }
+.header-logo img {
+  width: 100px;
+}
 
+.best-looking-sec:before {
+  width: 350px;
+}
 
+.best-looking-system {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0px 0px 0px 100px;
+}
+
+.best-looking-points {
+  justify-content: end;
+  margin: 30px 30px 0px 0px;
+}
+
+.best-looking-points ul li {
+  width: 280px;
+  font-size: 18px;
+}
+
+.best-looking-system {
+  right: 0%;
+  margin: 0px;
+}
+
+.best-looking-system h3 {
+  width: 375px;
+  font-size: 25px;
+  margin: 0px 100px 0px 0px;
+}
+
+.best-looking-points ul li:nth-child(1):before {
+  height: 38px;
+  right: 530px;
+}
+
+.best-looking-points ul li:nth-child(1) span {
+  right: 518px;
+  top: 60px;
+}
+
+.best-looking-points ul li:nth-child(2):before {
+  right: 460px;
+}
+
+.best-looking-points ul li:nth-child(2) span {
+  right: 448px;
+}
+
+.best-looking-points ul li:nth-child(3):before {
+  right: 660px;
+  bottom: 21px;
+}
+
+.best-looking-points ul li:nth-child(3) span {
+  right: 647px;
+  bottom: 125px;
+}
+
+.best-looking-points ul li:nth-child(3):after {
+  width: 320px;
+}
+
+.best-looking-points ul li:nth-child(3):before {
+  right: 600px;
+  bottom: 21px;
+}
+
+.best-looking-points ul li:nth-child(3) span {
+  right: 587px;
+  bottom: 125px;
+}
+
+.best-looking-points ul li:nth-child(4):after {
+  width: 390px;
+}
+
+.best-looking-points ul li:nth-child(4):before {
+  right: 670px;
+  bottom: 21px;
+}
+
+.best-looking-points ul li:nth-child(4) span {
+  border-radius: 50px;
+  right: 658px;
+}
+
+.best-looking-points ul li:nth-child(1):after {
+  width: 250px;
+}
+.proposed_cost_box {
+  width: 90%;
+  margin: 30px auto;
+}
+  .payment-option h4 {
+  background: #fff;
+  width: 300px;
+  font-size: 16px;
+}
+
+.payment-option span {
+  width: 70px;
+  height: 70px;
+  left: 10%;
+}
+
+.payment-option span img {
+  width: 50px;
+}
+
+.payment-end img {
+  width: 60px;
+}
+
+.proposed_monthly_payment_sec::before {
+  height: 100%;
+}
+
+.payment-amortize-box {
+  position: relative;
+}
+
+.payment-option-box {
+  padding: 10px 0px;
+  background: #fff;
+  position: relative;
+  margin: 10px 30px;
+  box-shadow: 0 0 7px 3px #0000002b;
+}
+
+.payment-amortize-box {
+  position: relative;
+  margin: 20px 30px;
+  box-shadow: 0 0 7px 3px #0000003d;
+}
+
+.tax-incentives-txt {
+  margin: 0px 30px 30px 30px;
+  background: #fff;
+  position: relative;
+  padding: 10px 20px;
+  box-shadow: 0 0 7px 3px #0000002b;
+}
+
+.expectional_service::before {
+  height: 600px;
+  width: 100%;
+  background-position: bottom;
+}
+
+.expectional_logo {
+  margin: 0px 0px 0px 20px;
+}
+
+.expectional_txt h3 {
+  padding: 40px;
+  height: 530px;
+}
+
+.upfront-cost-box {
+  margin: 20px 50px;
+}
+
+section.expectional_service {
+  height: 100%;
+}
+.site-1-dash-p h3 {
+  font-size: 28px;
+}
 }
 
 @media screen and (max-width: 600px){
@@ -4138,8 +5317,7 @@ section.section-38 {
   padding-top: 65px;
 }
 
-section.section-go-3 {
-}
+
 .section-37-card {
   width: 100%;
 }
@@ -4699,6 +5877,236 @@ section.section-15 {
 
 .logo-section-23 {
   width: 12%;
+}
+
+
+
+.best-looking-sec:before {
+  display: none;
+}
+
+.header-logo {
+  margin: 0px 0px 50px 0px;
+  text-align: center;
+}
+
+.best-looking-points {
+  justify-content: center;
+  margin: 30px 0px 0px 0px;
+}
+
+.best-looking-system h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+.best-looking-points ul {
+  padding: 0px;
+}
+
+.best-looking-points ul li {
+  text-align: center;
+  width: 100%;
+}
+
+.best-looking-system {
+  right: 0%;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.best-looking-points ul li:nth-child(1):after {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(1):before {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(1) span {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(2):after {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(2):before {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(2) span {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(3):after {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(3):before {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(3) span {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(4):after {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(4):before {
+  display: none;
+}
+
+.best-looking-points ul li:nth-child(4) span {
+  display: none;
+}
+
+.payment-option-box {
+  margin: 10px 20px;
+}
+
+.payment-amortize-box {
+  margin: 20px 20px;
+}
+
+.tax-incentives-txt {
+  margin: 0px 20px 30px 20px;
+}
+
+.monthly-payment-txt {
+  gap: 10px;
+  margin: 20px 0px 20px 10px;
+  flex-direction: column;
+}
+
+.monthly-payment-txt h4 {
+  width: 100%;
+  text-align: center;
+}
+
+.intial-term p {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.intial-term {
+  text-align: center;
+}
+
+.tax-incentives-txt p {
+  text-align: center;
+}
+
+.payment-option {
+  display: none;
+}u
+
+.payment-end img {
+  width: 45px;
+}
+
+.expectional_service::before {
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.expectional_txt h3 {
+  margin: 120px 0px 100px 0px;
+  font-size: 50px;
+}   
+.upfront-cost-box {
+  margin: 200px 20px 0px 20px;
+}
+section.expectional_service {
+  height: 100%;
+}
+
+.work-contract-box {
+  margin: 60px 0px 10px 0px;
+  padding: 30px 20px 20px 20px;
+}
+
+.lifetime-logo img {
+  width: 200px;
+}
+
+.lifetime-logo h5 {
+  font-size: 25px;
+  padding: 0px 0px 0px 50px;
+}
+
+.lifetime-logo {
+  padding: 0px 0px;
+  position: relative;
+}
+
+.work-contract-box h6 {
+  padding: 10px 0px 10px 10px;
+}
+
+.work-contract-box p {
+  padding: 0px 0px 0px 10px;
+}
+
+.upfront-cost-box p {
+  font-size: 18px;
+  padding: 0px 0px;
+}
+
+.lifetime-logo::before {
+  left: 40%;
+}
+.site-1-dash-p h3 {
+  font-size: 28px;
+}
+
+.main-dasborad-site {
+  flex-direction: column;
+}
+
+
+
+section.section-sixty {
+  height: 100%;
+}
+
+.site-1-dash-p {
+  padding: 40px 0px;
+}
+
+.dash-site-list-2 {
+  width: 100%;
+  padding: 100px 30px;
+}
+
+.site-box-card {
+  padding: 25px 25px;
+  border-radius: 15px;
+}
+
+.Cost-btn-box button {
+  font-size: 18px;
+  padding: 5px 27px;
+}
+
+.Cost-list-box span h2 {
+  font-size: 18px;
+}
+
+.cost-btn-listing button h2 {
+  font-size: 18px;
+}
+
+.cost-btn-listing button {
+  padding: 5px 18px;
+}
+.dash-site-list-1 {
+  width: 100%;
 }
 }
 
